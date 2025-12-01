@@ -1,0 +1,8 @@
+.luarc.json
+    以撒api语法注释文件
+
+GetDoorId.lua
+    自用api，为当前层所有门进行唯一编码
+
+statsmultiplier
+    失效的模组，曾用于尝试获取游戏属性倍率

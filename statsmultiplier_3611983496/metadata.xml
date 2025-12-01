@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>StatsMultiplier</name>
+    <directory>statsmultiplier</directory>
+    <id>3611983496</id>
+    <description>[h1]提供了API，用于计算角色[b]修正属性[/b]的倍率乘区[/h1]
+
+[h2]可用接口[/h2]
+[h3]number StatsMultiplier:GetStatMult(EntityPlayer,StatString)[/h3]
+参数StatString为字符串，可能的值为：
+[list]
+[*]Speed
+[*]Tears
+[*]Damage
+[*]Range
+[*]ShotSpeed
+[*]Luck
+[/list]
+返回值为给定属性变动时对应的倍率乘区。
+
+[hr][/hr]
+注意：
+[olist]
+[*][b]不要在MC_EVALUATE_CACHE中调用此函数[/b]
+[*]该api通过为角色临时强制添加属性修正饰品，造成对应属性的变动，从而达到计算修正属性倍率的目的。[b]“修正属性倍率”不等同于“当前属性的倍率”，仅当角色没有初始倍率时二者相等。[/b]
+[/olist]
+</description>
+    <version>1.0.5</version>
+    <visibility>Private</visibility>
+    <tag id="Lua"/>
+</metadata>

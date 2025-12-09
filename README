@@ -6,3 +6,6 @@ GetDoorId.lua
 
 statsmultiplier
     失效的模组，曾用于尝试获取游戏属性倍率
+
+GetRoomDistance.lua
+    自用api，计算两个房间之间的距离
